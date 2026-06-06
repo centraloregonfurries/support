@@ -4,9 +4,16 @@
   box-sizing: border-box;
 }
 
+html,
+body {
+  margin: 0;
+  height: 100%;
+}
+
 body {
   font-family: Roboto, sans-serif;
-  min-height: 100vh;
+  min-height: 100dvh;
+  overflow: hidden;
   display: flex;
   align-items: center;
   justify-content: center;
